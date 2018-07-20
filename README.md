@@ -1,3 +1,2 @@
 # tensorflow-tutorial
-# week1 : basis of the tensorflow
-#  - 
+week1 : basis of the tensorflow
