@@ -1,3 +1,7 @@
+#############################################
+### tensorflow의 이해와 tensorboard의 활용 ###
+#############################################
+
 import tensorflow as tf
 
 X = tf.placeholder(tf.float32)
@@ -18,7 +22,7 @@ merged = tf.summary.merge_all()
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
 
-    # step 3: writer 생성
+    # step 3: writer 생성 (그래프를 저장할 경로 설정)
     writer = tf.summary.FileWriter('./board/sample', sess.graph)
 
     for step in range(100):
