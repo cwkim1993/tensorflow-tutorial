@@ -1,1 +1,21 @@
-#This is starting
+Tensor 정의
+ 텐서플로우의 기본데이터 구조로 보통 다차원 배열이라고 한다.
+ 
+Tensor 구조
+  1. 상수 (constant)
+    value : 상수값
+    dtype : 상수의 데이터형(int, float ...)
+    shape : 차원
+   
+  2. 변수 (variable)
+    w 가중치, b 절편과 같이 변하는 value를 위한 데이터형
+    (session을 수행하기 전에 텐서플로우의 global_valriables_innitializer()와 같은 함수로 초기화해야한다.)
+   
+  3. 플레이스홀더 (placeholder)
+   
+   
+Session 세션
+  심볼 변수의 관계를 분석하고 값을 계산
+  초기값을 이용해서 형태를 지정
+  
+
